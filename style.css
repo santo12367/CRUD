@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(nflix.avif);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-image: url(gr.jpg);
+    padding: 50px;
+    border-radius: 90px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #004b69;
+}
+
+form input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 100px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    width: 95%;
+    padding: 10px;
+    background-color: #5f0057;
+    color: rgb(250, 243, 243);
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #00758a;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 80px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #0e0d0d;
+    border-radius: 100px;
+    text-align: left;
+
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4735e5;
+}
+
+button.edit-btn {
+    background-color: #ff9800;
+}
+
+button.edit-btn:hover {
+    background-color: #fb8c00;
+}
+    

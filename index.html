@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Database CRUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Movies Database</h1>
+
+        <form id="movieForm">
+            <input type="text" id="movieTitle" placeholder="Movie Title" required />
+            <input type="text" id="movieDirector" placeholder="Director" required />
+            <input type="number" id="movieYear" placeholder="Year" required />
+            <button type="submit">Add Movie</button>
+        </form>
+
+        <h2>Movie List</h2>
+        <table id="movieTable">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Director</th>
+                    <th>Year</th>
+                    <th>Tools</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+    <server src="server.js"></server>
+</body>
+</html>
